@@ -2,10 +2,10 @@
 name: CI
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
+      - test
   pull_request:
     branches:
       - "**"
